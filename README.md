@@ -25,6 +25,5 @@ Links look like `https://your-domain/Mr.%20Sanjaya`; the invitation then shows
 1. Open the [spreadsheet](https://docs.google.com/spreadsheets/d/1G-Eo3ADFbubeCdgkmaK1xERV7aIQKiSt6azTLjq5ZYg/edit) → **Extensions → Apps Script**.
 2. Paste the contents of [`code.gs`](code.gs), save, and run `setup` once (creates the **RSVP** and **Wishes** sheets with headers).
 3. **Deploy → New deployment → Web app** — Execute as *Me*, access *Anyone*. Copy the `/exec` URL.
-4. Set it as `VITE_GOOGLE_SCRIPT_URL` (Vercel → Project → Settings → Environment Variables, or a local `.env`), then redeploy.
+4. The URL is set in `GOOGLE_SCRIPT_URL` in [`src/config.ts`](src/config.ts). If you redeploy as a *new* deployment, update it there.
 
-Until the URL is set, the forms only simulate a successful submission.

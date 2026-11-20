@@ -30,13 +30,9 @@ export const INVITATION = {
   rsvpContacts: [{ label: "RSVP", phone: "077 707 3573", tel: "+94777073573" }],
 } as const;
 
-/**
- * Google Apps Script Web App URL (see code.gs).
- * Paste the deployed "/exec" URL here, or set VITE_GOOGLE_SCRIPT_URL.
- * Left empty, form submissions are simulated (nothing is saved).
- */
-export const GOOGLE_SCRIPT_URL: string =
-  import.meta.env.VITE_GOOGLE_SCRIPT_URL || "";
+/** Google Apps Script Web App URL (see code.gs) — RSVP + wishes go to Google Sheets. */
+export const GOOGLE_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbw3VM18N9d6xZ98YkdlyZt-EgCtx1oPpVYqzcvopJF3q_Nf61owNzj2HPhzWjsUMsrr/exec";
 
 // ─────────────────────────────────────────────────────────────
 //  Guest personalisation
