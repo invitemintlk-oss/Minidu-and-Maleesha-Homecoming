@@ -567,7 +567,7 @@ export default function HomecomingInvitation() {
                   </div>
 
                   <p className="font-cinzel text-[12px] md:text-[13px] tracking-[0.25em] uppercase font-bold text-[#FFFFFF] mb-2">
-                    The Daughter Of
+                    The Son Of
                   </p>
                   
                   {/* Ornament with dot */}
@@ -587,7 +587,7 @@ export default function HomecomingInvitation() {
                     <div className="absolute inset-1 border border-[#D4AF37]/20 pointer-events-none" style={{ clipPath: 'polygon(12px 0, calc(100% - 12px) 0, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0 calc(100% - 12px), 0 12px)' }}></div>
                     
                     <div className="py-6 px-4 flex flex-col items-center justify-center text-[#FFFFFF] font-cinzel text-xs md:text-sm tracking-[0.1em] relative z-10 font-bold leading-relaxed">
-                      <span className="uppercase">{INVITATION.parents.bride}</span>
+                      <span className="uppercase">{INVITATION.parents.groom}</span>
                     </div>
                   </div>
 
@@ -606,7 +606,7 @@ export default function HomecomingInvitation() {
                   </div>
 
                   <p className="font-cinzel text-[12px] md:text-[13px] tracking-[0.25em] uppercase font-bold text-[#FFFFFF] mb-2">
-                    The Son Of
+                    The Daughter Of
                   </p>
                   
                   {/* Ornament with dot */}
@@ -626,7 +626,7 @@ export default function HomecomingInvitation() {
                     <div className="absolute inset-1 border border-[#D4AF37]/20 pointer-events-none" style={{ clipPath: 'polygon(12px 0, calc(100% - 12px) 0, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0 calc(100% - 12px), 0 12px)' }}></div>
                     
                     <div className="py-5 px-4 flex flex-col items-center justify-center text-[#FFFFFF] font-cinzel text-xs md:text-sm tracking-[0.1em] relative z-10 font-bold leading-relaxed">
-                      <span className="uppercase">{INVITATION.parents.groom}</span>
+                      <span className="uppercase">{INVITATION.parents.bride}</span>
                     </div>
                   </div>
 
